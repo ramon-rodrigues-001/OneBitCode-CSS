@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+1. Background dos posts = #fffafa
+2. Cor da data = #008080
+*/
+
+main {
+    background-color: #fdf9f9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.079);
+    margin: 10px auto 0px auto;
+    width: 70vw;
+}
+
+main h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 10px 0px;
+}
+
+main p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+main p.data {
+    font-family: 'Roboto', monospace;
+    color: #008080;
+    font-weight: 400;
+}
+
+section {
+    padding: 25px;
+}
+
+

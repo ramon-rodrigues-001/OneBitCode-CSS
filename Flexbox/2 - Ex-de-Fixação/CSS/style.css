@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 5px 30px;
+}
+
+#icone {
+    width: 42px;
+    height: 42px;
+}
+
+#logo {
+    height: 42px;
+}
+
+
+.butoes {
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font: bold 1em Arial;
+    text-decoration: none;
+    margin: 0px 7px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.butoes:hover {
+    border: 2px solid rgb(255, 0, 0);
+    transition: .4s;
+}

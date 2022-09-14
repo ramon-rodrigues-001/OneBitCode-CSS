@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.blocos { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 60px;
+
+    background-color: rgb(221, 218, 218);
+    font-size: 1.2em;
+    border: 2px solid black;
+    width: 100vw;
+    /*height: 70px;*/
+}
+
+#item-2 {
+    /* flex: grow shrink basis */
+    flex: 1 0 300px;
+}
