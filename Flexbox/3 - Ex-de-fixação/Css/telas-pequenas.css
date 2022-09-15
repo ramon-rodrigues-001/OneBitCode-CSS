@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 500px) {
+  #cabeca {
+    display: flex;
+    flex-direction: column;
+  }
+  #cabeca a {
+    display: inline-block;
+    margin: 4px;
+  }
+}

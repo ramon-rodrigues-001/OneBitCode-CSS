@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* Estilo do [Main / Header / pe] */
+.conteiner {
+    display: flex;
+    flex: 0 0 45px;    
+    justify-content: center;
+    align-items: center;
+
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+
+            /* Estilo da cabeça [Header] */
+#cabeca {
+    justify-content: space-between;
+    padding: 0px 1%;
+}
+#cabeca a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 3px 10px;
+    margin: 0px 5px;
+    transition: .4s;
+}
+#cabeca a:hover {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+            /* Estilo do corpo [Main] */
+#corpo {
+    flex: 1 0 400px;
+    flex-direction: column;
+}
+#corpo  p {
+    font-weight: bold;
+    max-width: 500px;
+}

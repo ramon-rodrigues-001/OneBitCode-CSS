@@ -20,7 +20,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 0 60px;
+    flex: 0 0 60px;
 
     background-color: rgb(221, 218, 218);
     font-size: 1.2em;
@@ -31,5 +31,5 @@ main {
 
 #item-2 {
     /* flex: grow shrink basis */
-    flex: 1 0 300px;
+    flex: 1 0 400px;
 }
