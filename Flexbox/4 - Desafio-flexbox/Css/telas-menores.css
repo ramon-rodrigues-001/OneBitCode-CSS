@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media (max-width: 500px) {
+
+    .conteiner-header #icone {
+        height: 30px;
+    }
+    .conteiner-header #logo {
+        height: 30px;
+    }
+
+    #header nav {
+        display: block;
+        margin: 10px auto;
+    }
+}
