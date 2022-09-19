@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#corpo {
+    display: grid;
+    grid-template-rows: 0.4fr 4.2fr 0.4fr;
+
+    min-height: 100vh;
+}
+
+.blocos {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+}
+
+#principal {
+    background-color: red;
+}
+
+#secundario {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#secundario #item1 {
+    background-color: aqua;
+}
+#secundario #item2 {
+    background-color: blueviolet;
+}
