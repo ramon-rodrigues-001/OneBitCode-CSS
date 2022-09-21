@@ -1,0 +1,19 @@
+// Importando as cores
+@import "cores/color.scss";
+
+
+// Utilizando Mixin
+@mixin text($cor, $font-family, $weight) {
+    color: $cor;
+    font-family: $font-family;
+    font-weight: $weight;
+}
+
+#container {
+    h1 {
+        @include text($cor-titulo, Arial, normal)
+    }
+    p {
+        @include text($cor-texto, serif, bold)
+    }
+}
