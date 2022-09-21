@@ -1,0 +1,17 @@
+$Btn-Color : red;
+$Btn-Width : 200px;
+$Btn-Font : bold 1.2em arial;
+
+#btn1 {
+    background-color: $Btn-Color;
+    font: $Btn-Font;
+    min-width: $Btn-Width;
+    padding: 20px;
+}
+
+#btn2 {
+    background-color: $Btn-Color;
+    font: $Btn-Font;
+    min-width: $Btn-Width;
+    padding: 20px;
+}

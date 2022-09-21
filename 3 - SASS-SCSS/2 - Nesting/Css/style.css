@@ -1,0 +1,18 @@
+#div1 ul {
+  background-color: aqua;
+}
+#div1 ul li {
+  background-color: red;
+  padding: 10px 0px;
+}
+#div1 button {
+  background-color: blue;
+  cursor: pointer;
+  padding: 20px;
+}
+#div1 button:hover {
+  background-color: rgb(74, 74, 204);
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */

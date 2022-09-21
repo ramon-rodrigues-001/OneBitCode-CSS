@@ -1,0 +1,28 @@
+        // Variaveis
+$ul-color : aqua;
+$li-color : red;
+$button-color : blue;
+
+
+        // Nesting
+#div1 {
+    ul {
+        background-color: $ul-color;
+        
+        li {
+            background-color: $li-color;
+            padding: 10px 0px;
+        }
+    }
+
+    button {
+        background-color: $button-color;
+        cursor: pointer;
+        padding: 20px;
+
+        &:hover {
+            background-color: rgb(74, 74, 204);
+            transition: .4s;
+        }
+    }
+}
