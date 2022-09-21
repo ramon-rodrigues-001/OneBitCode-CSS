@@ -1,0 +1,28 @@
+// Herança
+.btnGeral {
+    font: normal 1.1em Arial;
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+
+    &#btn1 {
+        background-color: purple;
+        color: white;
+    }
+
+    &#btn2 {
+        background-color: yellow;
+    }
+}
+
+
+/* Tambem tem essa opição abaixo
+Se o elemento não tiver a mesma class vc utiliza um {@extend}. */
+#btn3 {
+    @extend .btnGeral;
+
+    background-color: blue;
+    color: white;
+}
