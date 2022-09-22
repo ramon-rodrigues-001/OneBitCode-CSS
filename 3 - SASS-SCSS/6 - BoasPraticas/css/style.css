@@ -1,0 +1,30 @@
+.title {
+  color: #07073c;
+}
+
+.links {
+  background-color: #07073c;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 80px;
+}
+
+#text-cadastro {
+  font-size: 1.2em;
+  color: red;
+  font-family: Arial;
+}
+
+#text-login {
+  font-size: 1.2em;
+  color: blue;
+  font-family: Arial;
+}
+
+/*# sourceMappingURL=style.css.map */

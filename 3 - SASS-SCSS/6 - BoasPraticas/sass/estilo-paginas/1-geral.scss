@@ -1,0 +1,22 @@
+.title {
+    color: $back-color;
+}
+
+.links {
+    background-color: $back-color;
+    color: $color;
+    display: inline-block;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 80px;
+}
+
+@mixin text($font-size, $color, $family) {
+    font-size: $font-size;
+    color: $color;
+    font-family: $family;
+}
