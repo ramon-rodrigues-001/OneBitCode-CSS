@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// Com essa função vai mudar a cor do texto para ontrario da cor do fundo.
+@function text-color($background) {
+    @if (lightness($background) > 50) {
+        @return #000;
+    }
+    @else {
+        @return #fff;
+    }
+}
+
+@mixin cores($cor-background) {
+    background-color: $cor-background;
+    color: text-color($cor-background);
+}
+
+#div-title {
+    @include cores(black);
+    text-align: center;
+    padding: 10px;
+}
+
+
+// A funçoes já pre definidas Como esta abaixo Que vai mesturar as cores
+#teste {
+    color: mix(rgb(255, 0, 0), rgb(255, 238, 0), 50%);
+
+    font: bold 1.2em Arial;
+    text-align: center;
+    padding: 10px;
+}

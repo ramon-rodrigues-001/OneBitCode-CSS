@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#div-title {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#teste {
+  color: #ff7700;
+  font: bold 1.2em Arial;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
