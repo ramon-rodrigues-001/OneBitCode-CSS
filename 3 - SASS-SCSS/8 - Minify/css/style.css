@@ -1,0 +1,7 @@
+/* PARA FAZER ISSO DEVE SE DIGITAR ESSE CODIGO ABAIXO NO TERMINAL */
+/* sass sass/style.scss:css/style.css --style compressed */
+/*...............O caminho...............*/
+
+*{margin:0;padding:0}#corpo{display:flex;justify-content:center;align-items:center;gap:15px;min-height:99vh}.divs{display:flex;justify-content:center;align-items:center;background-color:#000;color:#fff;border-radius:10px;width:200px;height:320px}.text{font-size:10em}
+
+/*# sourceMappingURL=style.css.map */

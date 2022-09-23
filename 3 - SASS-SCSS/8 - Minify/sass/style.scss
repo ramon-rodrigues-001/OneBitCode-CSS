@@ -1,0 +1,30 @@
+@import "Variaveis/cores.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 99vh;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $primary;
+    color: $secundary;
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+}
+
+.text {
+    font-size: 10em;
+}
