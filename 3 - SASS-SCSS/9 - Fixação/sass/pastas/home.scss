@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 300px;
+    background-color: $Branco;
+    font-size: 3em;
+    color: black;
+    height: 200px;
+}

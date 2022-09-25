@@ -1,0 +1,13 @@
+#formulario-de-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#formulario-de-cadastro input, label {
+    font-size: 1.5em;
+    margin: 5px 0px;
+}
