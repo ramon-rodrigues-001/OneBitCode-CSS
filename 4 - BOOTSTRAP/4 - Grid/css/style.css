@@ -1,0 +1,19 @@
+body {
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  background-color: aqua;
+  margin: auto;
+  max-width: 99vw;
+}
+.row .linhas {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
