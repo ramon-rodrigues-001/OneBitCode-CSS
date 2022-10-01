@@ -1,0 +1,17 @@
+.header {
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+}
+
+.item {
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: auto;
+    width: 800px;
+}
