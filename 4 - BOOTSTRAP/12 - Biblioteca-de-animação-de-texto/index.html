@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animatio lib</title>
+
+    <!-- biblioteca CSS animação de texto -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        body {
+            text-align: center;
+        }
+        .container {
+            height: 100vh;
+        }
+        .card {
+            background-color: black;
+            color: white;
+            margin: auto;
+            padding: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você primeiro vai acesar o site <a href="https://michalsnik.github.io/aos/" target="_blank">https://michalsnik.github.io/aos/</a></h1>
+    <h3>Entre no github do site copie a biblioteca. volte no site é escolha sua animação. <br>mais abaixo no site encina a manipular a animação
+    </h3>
+
+
+    <div class="container">
+        <div class="card" data-aos="fade-up-right"> 
+            <h2>Hello, world</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" data-aos="zoom-in"> 
+            <h2>Hello, world</h2>
+        </div>
+    </div>
+
+    
+    <!-- biblioteca javaScript animação de texto -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
