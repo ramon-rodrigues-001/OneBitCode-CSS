@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeJS</title>
+</head>
+<body>
+    <div class="demo-wrapper">
+        <div class="css-prop-demo el" style="background-color: red; width: 100px; height: 100px;"></div>
+    </div>
+
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '.css-prop-demo .el',
+            left: '240px',
+            backgroundColor: '#FFF',
+            borderRadius: ['0%', '50%'],
+            easing: 'easeInOutQuad'
+        });
+    </script>
+</body>
+</html>
